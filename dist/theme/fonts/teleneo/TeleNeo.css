@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'TeleNeoWeb';
+    src: url('./TeleNeoWeb-Regular.eot');
+    src: url('./TeleNeoWeb-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./TeleNeoWeb-Regular.woff') format('woff'),
+         url('./TeleNeoOffice-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TeleNeoWeb';
+    src: url('./TeleNeoWeb-RegularItalic.eot');
+    src: url('./TeleNeoWeb-RegularItalic.eot?#iefix') format('embedded-opentype'),
+         url('./TeleNeoWeb-RegularItalic.woff') format('woff'),
+         url('./TeleNeoOffice-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TeleNeoWeb';
+    src: url('./TeleNeoWeb-Thin.eot');
+    src: url('./TeleNeoWeb-Thin.eot?#iefix') format('embedded-opentype'),
+         url('./TeleNeoWeb-Thin.woff') format('woff'),
+         url('./TeleNeoOffice-Thin.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TeleNeoWeb';
+    src: url('./TeleNeoWeb-ThinItalic.eot');
+    src: url('./TeleNeoWeb-ThinItalic.eot?#iefix') format('embedded-opentype'),
+         url('./TeleNeoWeb-ThinItalicwoff') format('woff'),
+         url('./TeleNeoOffice-ThinItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TeleNeoWeb';
+    src: url('./TeleNeoWeb-Medium.eot');
+    src: url('./TeleNeoWeb-Medium.eot?#iefix') format('embedded-opentype'),
+         url('./TeleNeoWeb-Medium.woff') format('woff'),
+         url('./TeleNeoOffice-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TeleNeoWeb';
+    src: url('./TeleNeoWeb-MediumItalic.eot');
+    src: url('./TeleNeoWeb-MediumItalic.eot?#iefix') format('embedded-opentype'),
+         url('./TeleNeoWeb-MediumItalic.woff') format('woff'),
+         url('./TeleNeoOffice-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TeleNeoWeb';
+    src: url('./TTeleNeoWeb-Bold.eot');
+    src: url('./TeleNeoWeb-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./TeleNeoWeb-Bold.woff') format('woff'),
+         url('./TeleNeoOffice-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TeleNeoWeb';
+    src: url('./TeleNeoWeb-BoldItalic.eot');
+    src: url('./TeleNeoWeb-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('./TeleNeoWeb-BoldItalic.woff') format('woff'),
+         url('./TeleNeoOffice-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TeleNeoWeb';
+    src: url('./TeleNeoWeb-ExtraBold.eot');
+    src: url('./TeleNeoWeb-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('./TeleNeoWeb-ExtraBold.woff') format('woff'),
+         url('./TeleNeoOffice-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TeleNeoWeb';
+    src: url('./TeleNeoWeb-ExtraBoldItalic.eot');
+    src: url('./TeleNeoWeb-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('./TeleNeoWeb-ExtraBoldItalic.woff') format('woff'),
+         url('./TeleNeoOffice-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
