@@ -14,6 +14,7 @@
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
+	color: #e20074 !important;
 }
 .fa-lg {
     font-size: 1.33333em;
