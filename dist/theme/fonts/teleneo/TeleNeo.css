@@ -1,27 +1,35 @@
+/*!
+ * Declarations for TeleNeo Office Font Family
+ * By David AE Levy
+*/
+
 @font-face {
-    font-family: 'TeleNeoWeb';
+    font-family: "TeleNeo Office";
     src: url('./TeleNeoWeb-Regular.eot');
     src: url('./TeleNeoWeb-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('./TeleNeoWeb-Regular.woff2') format('woff2'),
          url('./TeleNeoWeb-Regular.woff') format('woff'),
          url('./TeleNeoOffice-Regular.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'TeleNeoWeb';
+    font-family: "TeleNeo Office";
     src: url('./TeleNeoWeb-RegularItalic.eot');
     src: url('./TeleNeoWeb-RegularItalic.eot?#iefix') format('embedded-opentype'),
+		 url('./TeleNeoWeb-RegularItalic.woff2') format('woff2'),
          url('./TeleNeoWeb-RegularItalic.woff') format('woff'),
          url('./TeleNeoOffice-RegularItalic.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'TeleNeoWeb';
+    font-family: "TeleNeo Office";
     src: url('./TeleNeoWeb-Thin.eot');
     src: url('./TeleNeoWeb-Thin.eot?#iefix') format('embedded-opentype'),
+		 url('./TeleNeoWeb-Thin.woff2') format('woff2'),
          url('./TeleNeoWeb-Thin.woff') format('woff'),
          url('./TeleNeoOffice-Thin.ttf') format('truetype');
     font-weight: 300;
@@ -29,9 +37,10 @@
 }
 
 @font-face {
-    font-family: 'TeleNeoWeb';
+    font-family: "TeleNeo Office";
     src: url('./TeleNeoWeb-ThinItalic.eot');
     src: url('./TeleNeoWeb-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		 url('./TeleNeoWeb-ThinItalic.woff2') format('woff2'),
          url('./TeleNeoWeb-ThinItalicwoff') format('woff'),
          url('./TeleNeoOffice-ThinItalic.ttf') format('truetype');
     font-weight: 300;
@@ -39,9 +48,10 @@
 }
 
 @font-face {
-    font-family: 'TeleNeoWeb';
+    font-family: "TeleNeo Office";
     src: url('./TeleNeoWeb-Medium.eot');
     src: url('./TeleNeoWeb-Medium.eot?#iefix') format('embedded-opentype'),
+		 url('./TeleNeoWeb-Medium.woff2') format('woff2'),
          url('./TeleNeoWeb-Medium.woff') format('woff'),
          url('./TeleNeoOffice-Medium.ttf') format('truetype');
     font-weight: 500;
@@ -49,9 +59,10 @@
 }
 
 @font-face {
-    font-family: 'TeleNeoWeb';
+    font-family: "TeleNeo Office";
     src: url('./TeleNeoWeb-MediumItalic.eot');
     src: url('./TeleNeoWeb-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		 url('./TeleNeoWeb-MediumItalic.woff2') format('woff2'),
          url('./TeleNeoWeb-MediumItalic.woff') format('woff'),
          url('./TeleNeoOffice-MediumItalic.ttf') format('truetype');
     font-weight: 500;
@@ -59,9 +70,10 @@
 }
 
 @font-face {
-    font-family: 'TeleNeoWeb';
+    font-family: "TeleNeo Office";
     src: url('./TTeleNeoWeb-Bold.eot');
     src: url('./TeleNeoWeb-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('./TeleNeoWeb-Bold.woff2') format('woff2'),
          url('./TeleNeoWeb-Bold.woff') format('woff'),
          url('./TeleNeoOffice-Bold.ttf') format('truetype');
     font-weight: 700;
@@ -69,9 +81,10 @@
 }
 
 @font-face {
-    font-family: 'TeleNeoWeb';
+    font-family: "TeleNeo Office";
     src: url('./TeleNeoWeb-BoldItalic.eot');
     src: url('./TeleNeoWeb-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		 url('./TeleNeoWeb-BoldItalic.woff2') format('woff2'),
          url('./TeleNeoWeb-BoldItalic.woff') format('woff'),
          url('./TeleNeoOffice-BoldItalic.ttf') format('truetype');
     font-weight: 700;
@@ -79,9 +92,10 @@
 }
 
 @font-face {
-    font-family: 'TeleNeoWeb';
+    font-family: "TeleNeo Office";
     src: url('./TeleNeoWeb-ExtraBold.eot');
     src: url('./TeleNeoWeb-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		 url('./TeleNeoWeb-ExtraBold.woff2') format('woff2'),
          url('./TeleNeoWeb-ExtraBold.woff') format('woff'),
          url('./TeleNeoOffice-ExtraBold.ttf') format('truetype');
     font-weight: 800;
@@ -89,9 +103,10 @@
 }
 
 @font-face {
-    font-family: 'TeleNeoWeb';
+    font-family: "TeleNeo Office";
     src: url('./TeleNeoWeb-ExtraBoldItalic.eot');
     src: url('./TeleNeoWeb-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+		 url('./TeleNeoWeb-ExtraBoldItalic.woff2') format('woff2'),
          url('./TeleNeoWeb-ExtraBoldItalic.woff') format('woff'),
          url('./TeleNeoOffice-ExtraBoldItalic.ttf') format('truetype');
     font-weight: 800;

@@ -1,105 +1,5 @@
-@font-face {
-    font-family: 'TeleNeoWeb';
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-Regular.eot');
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoWeb-Regular.woff') format('woff'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoOffice-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TeleNeoWeb';
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-RegularItalic.eot');
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-RegularItalic.eot?#iefix') format('embedded-opentype'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoWeb-RegularItalic.woff') format('woff'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoOffice-RegularItalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'TeleNeoWeb';
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-Thin.eot');
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-Thin.eot?#iefix') format('embedded-opentype'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoWeb-Thin.woff') format('woff'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoOffice-Thin.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TeleNeoWeb';
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-ThinItalic.eot');
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-ThinItalic.eot?#iefix') format('embedded-opentype'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoWeb-ThinItalicwoff') format('woff'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoOffice-ThinItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'TeleNeoWeb';
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-Medium.eot');
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-Medium.eot?#iefix') format('embedded-opentype'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoWeb-Medium.woff') format('woff'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoOffice-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TeleNeoWeb';
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-MediumItalic.eot');
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-MediumItalic.eot?#iefix') format('embedded-opentype'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoWeb-MediumItalic.woff') format('woff'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoOffice-MediumItalic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'TeleNeoWeb';
-    src: url('./TTeleNeoWeb-Bold.eot');
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoWeb-Bold.woff') format('woff'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoOffice-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TeleNeoWeb';
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-BoldItalic.eot');
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-BoldItalic.eot?#iefix') format('embedded-opentype'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoWeb-BoldItalic.woff') format('woff'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoOffice-BoldItalic.ttf') format('truetype');
-    font-weight: 700;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'TeleNeoWeb';
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-ExtraBold.eot');
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-ExtraBold.eot?#iefix') format('embedded-opentype'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoWeb-ExtraBold.woff') format('woff'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoOffice-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TeleNeoWeb';
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-ExtraBoldItalic.eot');
-    src: url('../../dist/theme/fonts/teleneo//TeleNeoWeb-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoWeb-ExtraBoldItalic.woff') format('woff'),
-         url('../../dist/theme/fonts/teleneo//TeleNeoOffice-ExtraBoldItalic.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
-}
-
 .slide-menu-wrapper {
-  font-family: 'TeleNeoWeb' !important;
+  font-family: "TeleNeo Office" !important;
 }
 
 .slide-menu-wrapper .slide-menu {
@@ -145,6 +45,7 @@
 .slide-menu-wrapper .slide-menu-item,
 .slide-menu-wrapper .slide-menu-item-vertical {
   display: block;
+  font-family: "TeleNeo Office" !important;
   text-align: left;
   padding: 10px 18px;
   color: #e20074;
@@ -292,7 +193,7 @@
 }
 
 .slide-menu-wrapper .slide-menu-toolbar > li.active-toolbar-button {
-  color: white;
+  color: #e20074;
   text-shadow: 0 1px black;
   text-decoration: underline;
 }
@@ -309,6 +210,7 @@
   > li.active-toolbar-button
   span.slide-menu-toolbar-label {
   visibility: visible;
+  font-family: "TeleNeo Office" !important;
 }
 
 /*
@@ -398,7 +300,7 @@
   display: block;
   text-align: left;
   cursor: pointer;
-  color: #848484;
+  color: #fff;
 }
 
 /*
@@ -407,9 +309,10 @@
 .reveal .slide-menu-button {
   position: fixed;
   left: 30px;
-  bottom: 30px;
+  top: 30px;
   z-index: 30;
   font-size: 24px;
+  color: #e20074;
 }
 
 /*

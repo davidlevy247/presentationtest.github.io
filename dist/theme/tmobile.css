@@ -3,7 +3,6 @@
  * Based on modified main RevealJS theme
  * By David AE Levy
 */
-@import url(./fonts/teleneo/TeleNeo.css);
 
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff;
@@ -14,12 +13,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  *********************************************/
 :root {
   --r-background-color: #fff;
-  --r-main-font: 'TeleNeoWeb' !important;
+  --r-main-font: "TeleNeo Office" !important;
   --r-main-font-size: 42px;
   --r-main-color: #e20074;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: 'TeleNeoWeb' !important;
+  --r-heading-font: "TeleNeo Office" !important;
   --r-heading-color: #e20074;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
@@ -31,12 +30,16 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-heading2-size: 1.6em;
   --r-heading3-size: 1.3em;
   --r-heading4-size: 1em;
-  --r-code-font: 'TeleNeoWeb' !important;
+  --r-code-font: "TeleNeo Office" !important;
   --r-link-color: #e20074;
   --r-link-color-dark: #e20074;
   --r-link-color-hover: #e20074;
   --r-selection-background-color: #fff;
   --r-selection-color: #e20074;
+}
+
+.slides {
+	font-family: "TeleNeo Office" !important;
 }
 
 .reveal .r-stretch, .reveal .stretch {
@@ -552,7 +555,7 @@ html.reveal-full-page {
     right: 8px;
     bottom: 8px;
     z-index: 31;
-    font-family: TeleNeoWeb;
+    font-family: "TeleNeo Office" !important;
     font-size: 12px;
     line-height: 1;
     color: #e20074;
@@ -1086,7 +1089,7 @@ html.reveal-full-page {
 }
 .reveal.rtl .slides, .reveal.rtl .slides h1, .reveal.rtl .slides h2, .reveal.rtl .slides h3, .reveal.rtl .slides h4, .reveal.rtl .slides h5, .reveal.rtl .slides h6 {
     direction: rtl;
-    font-family: TeleNeoWeb;
+    font-family: "TeleNeo Office";
 }
 .reveal.rtl code, .reveal.rtl pre {
     direction: ltr;
@@ -1342,7 +1345,7 @@ html.reveal-full-page {
     overflow: auto;
     box-sizing: border-box;
     text-align: left;
-    font-family: TeleNeoWeb;
+    font-family: "TeleNeo Office";
     -webkit-overflow-scrolling: touch;
 }
 .reveal .speaker-notes .notes-placeholder {
@@ -1429,7 +1432,7 @@ html.print-pdf .nestedarrow, html.print-pdf .reveal .controls, html.print-pdf .r
 }
 html.print-pdf .reveal pre code {
     overflow: hidden!important;
-    font-family: TeleNeoWeb !important;
+    font-family: "TeleNeo Office" !important;
 }
 html.print-pdf .reveal {
     width: auto!important;

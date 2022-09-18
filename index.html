@@ -3,19 +3,20 @@
 	<head>
 		<meta charset="utf-8">
 		<title>T-Mobile ?</title>
-		<link rel="stylesheet" href="./dist/theme/tmobile.css">
+		<link rel="stylesheet preload" href="./dist/theme/fonts/teleneo/TeleNeo.css" type="text/css" as="style"/>
+		<link rel="stylesheet" href="./dist/theme/tmobile.css" type="text/css" as="style"/>
 	</head>
 	<body>
 
 		<div class="reveal">
 			<div class="slides">
 
-				<section id="home" data-menu-title="Home" data-background-video="./assets/MWC_Las_Vegas_T-MobileSpectacularScreen_5700x2700_V1.mp4,./assets/MWC_Las_Vegas_T-MobileSpectacularScreen_5700x2700_V1.webm">
+				<section id="home" data-menu-title="Home" data-background-video="./assets/MWC_Las_Vegas_T-MobileSpectacularScreen_5700x2700_V1.mp4,./assets/MWC_Las_Vegas_T-MobileSpectacularScreen_5700x2700_V1.webm" data-background-video-loop="loop">
 
 				</section>
 				
 				<section id="5G Connectivity" data-menu-title="5G Connectivity" data-background-transition="zoom">
-					<h2>TEST Slide for 5G Connectivity Category</h2>
+					<h2>Slide for 5G Connectivity Category</h2>
 					<!--<p><a href="#home">links can go to any slide, but doesn't work on iframes slides</a>.</p>-->
 				</section>
 				
@@ -98,11 +99,11 @@
 
 		<script src="./dist/reveal.js"></script>
 		<script src="./plugin/zoom/zoom.js"></script>
+		<script src="./plugin/menu/menu.js"></script>
 		<script src="./plugin/notes/notes.js"></script>
 		<script src="./plugin/search/search.js"></script>
 		<script src="./plugin/markdown/markdown.js"></script>
 		<script src="./plugin/highlight/highlight.js"></script>
-		<script src="./plugin/menu/menu.js"></script>
 		<script>
 		
 			// Also available as an ES module, see:
@@ -114,6 +115,12 @@
 				progress: false,
 				center: true,
 				hash: true,
+				controlsBackArrows: 'visible',
+				autoPlayMedia: true,
+				preloadIframes: true,
+				autoAnimate: true,
+				mouseWheel: false,
+				
 
 			// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMenu ],
@@ -247,6 +254,17 @@
 
 			});
 		</script>
+<!--
+		<script>
+			// Wait for window load
+			$(window).load(function() {
+				// Animate loader off screen
+				$("#loader").animate({
+					top: -200
+				}, 1500);
+			});
+</script> 
+-->
 
 	</body>
 </html>
